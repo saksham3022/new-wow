@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-03-20T13:32:16+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2023/03/20/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2023-03-20T13:22:51+05:30</published><updated>2023-03-20T13:22:51+05:30</updated><id>http://localhost:4000/jekyll/update/2023/03/20/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2023/03/20/welcome-to-jekyll.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+
+<p>Jekyll requires blog post files to be named according to the following format:</p>
+
+<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
+
+<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+
+<p>Jekyll also offers powerful support for code snippets:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+
+<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry><entry><title type="html">Jekyll Garden Features</title><link href="http://localhost:4000/jekyll-garden.github.io/2020/03/01/features.html" rel="alternate" type="text/html" title="Jekyll Garden Features" /><published>2020-03-01T00:00:00+05:30</published><updated>2020-03-01T00:00:00+05:30</updated><id>http://localhost:4000/jekyll-garden.github.io/2020/03/01/features</id><content type="html" xml:base="http://localhost:4000/jekyll-garden.github.io/2020/03/01/features.html"><![CDATA[<h6 id="wiki-links-are-auto-converted-to-hyperlinks">Wiki links are auto-converted to Hyperlinks</h6>
+<p>The theme will automatically convert wiki links to inline links. Similarly, <code class="language-plaintext highlighter-rouge">[text](url)</code> will be converted to external links.</p>
+
+<h6 id="markdown-support">Markdown support</h6>
+<p>The theme supports all standard markdowns. Have a look at [[Markdown Rendered]] to see preview.</p>
+
+<h6 id="external-links-are-indicated">External Links are indicated</h6>
+<p>With link icon next to external links, it’s easier to identify internal links and external links</p>
+
+<h6 id="easy-front-matter">Easy Front-Matter</h6>
+<p>Using frontmatter, it’s easy to configure notes. The capability includes - feed order baed on date, option to hide notes from feed, list layout and more.</p>
+
+<h6 id="introducing-list-layout-for-notes">Introducing List layout for Notes</h6>
+<p>With simple front matter configuration, you can build a list layout (Check [[Credits]] for demo). This is helpful for building manual MoC :)</p>
+
+<h6 id="static-homepage">Static Homepage</h6>
+<p>Want to have a seperate home page instead of the feed? (Like <a href="https://hiran.in/">my personal website</a>) - You can configure that at <code class="language-plaintext highlighter-rouge">_config.yml</code> by change homepage enabled to true.</p>
+
+<h6 id="support-subpath">Support Subpath</h6>
+<p>You can install Jekyll garden to a URL path, or a sub path (example.com/digitalgarden). To do that, just configure baseurl at  <code class="language-plaintext highlighter-rouge">_config.yml</code></p>
+
+<h6 id="private-files-using-gitignore">Private files using .gitignore</h6>
+<p>Not a theme feature, but if you want to publish part of your obsidian, it’s easy. Just create two folders inside <code class="language-plaintext highlighter-rouge">_notes</code> (Say Public and Private), and use Gitignore to stop syncing your pirvate files with Github!</p>]]></content><author><name></name></author><category term="jekyll-garden.github.io" /><summary type="html"><![CDATA[Wiki links are auto-converted to Hyperlinks The theme will automatically convert wiki links to inline links. Similarly, [text](url) will be converted to external links.]]></summary></entry><entry><title type="html">Install and Setup</title><link href="http://localhost:4000/jekyll-garden.github.io/2020/03/01/how-to.html" rel="alternate" type="text/html" title="Install and Setup" /><published>2020-03-01T00:00:00+05:30</published><updated>2020-03-01T00:00:00+05:30</updated><id>http://localhost:4000/jekyll-garden.github.io/2020/03/01/how-to</id><content type="html" xml:base="http://localhost:4000/jekyll-garden.github.io/2020/03/01/how-to.html"><![CDATA[<p>Jekyll garden is a theme over Jekyll that supports Obsidian formats, and few features. To install Jekyll to your server or local host, refer <a href="https://jekyllrb.com/docs/installation/">these documents</a>. <a href="https://github.com/Jekyll-Garden/jekyll-garden.github.io/blob/main/Dockerfile">Docker file</a> is also available.</p>
+
+<p>Alternatively, you can use <a href="https://github.com/">Github</a> and <a href="https://pages.github.com/">Github Pages</a> as your server. It’s very simple and almost low-code. Here is how to do it.</p>
+
+<p><strong>Step 1</strong>: Sign-In to Github, visit the <a href="https://github.com/Jekyll-Garden/jekyll-garden.github.io">theme page</a> and click on ‘Use this Template’</p>
+
+<p><img src="../assets/img/1-how-to.png" width="100%" /></p>
+
+<p><strong>Step 2</strong>: Name the forked repo as <code class="language-plaintext highlighter-rouge">yourusername.github.io</code>. My Github username is hfactor, hence it’s hfactor.github.io</p>
+
+<p><img src="../assets/img/2-how-to.png" width="100%" /></p>
+
+<p><strong>Step 3</strong>: Go to your repo’s settings &gt; pages and set the source to your main branch. 
+<img src="../assets/img/3-how-to.png" width="100%" /></p>
+
+<p><strong>Step 4 (Optional)</strong>: If you have a custom domain, set <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/securing-your-github-pages-site-with-https">CNAME</a>.</p>
+
+<h2 id="configuring-your-jekyll">Configuring Your Jekyll.</h2>
+
+<p>Now you have Jekyll setup ready, go to <code class="language-plaintext highlighter-rouge">_config.yml</code> and set your configurations. Here you can do the following configurations :</p>
+<ol>
+  <li>URL to set your hostname</li>
+  <li>BASEURL to set your sub path (url/subpath/)</li>
+  <li>Website Heading, Content, Copyright Year + Message</li>
+  <li>Private Link - On hover message</li>
+  <li>What all folders to exclude (Obsidian Template and all)</li>
+</ol>
+
+<p>Edit these value via Github, and commit directly to Github, which will refresh the whole setup, and a Jekyll enivorment will be ready. You can visit the page by visiting  <code class="language-plaintext highlighter-rouge">yourusername.github.io</code></p>
+
+<h2 id="syncing-github-with-obsidian">Syncing Github with Obsidian</h2>
+
+<p>Now you have your online publishing setup ready. It’s time to build your local knowledge management using Obsidian. Here are the steps :</p>
+
+<p>Step 1: Go to github and clone your repository to your machine. For this, you can use git-commands or install <a href="https://desktop.github.com/">Github for desktop.</a> 
+<img src="../assets/img/4-how-to.png" width="100%" /></p>
+
+<p>Step 2: Once you have successfully cloned the repository to your machine, Open the Obsidian app in your machine, and set the folder <code class="language-plaintext highlighter-rouge">_notes</code> inside the repository as your vault. 
+<img src="../assets/img/5-how-to.png" width="100%" /></p>
+
+<p>This is important, because Jekyll Garden can only fetch and publish notes from <code class="language-plaintext highlighter-rouge">_notes</code> folder.</p>
+
+<h2 id="frontmatter">Frontmatter</h2>
+
+<p>For all notes to work properly, we need to have three frontmatter values.  Please make sure the front matter is written in between three lines. If you check any .md files in this repo, you will see something this.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
+
+title: Credits
+feed: hide
+date: 11-05-2022
+permalink: /credits
+format: list
+
+---
+</code></pre></div></div>
+
+<ol>
+  <li><code class="language-plaintext highlighter-rouge">Title</code> is the page title. It <strong>should be same as that of your Obsidian file</strong> title for our Wiki links to work. i.e, if file is <code class="language-plaintext highlighter-rouge">credits.md</code> title has to be <code class="language-plaintext highlighter-rouge">credits</code></li>
+  <li>If you want to show the note on the feed, you should set <code class="language-plaintext highlighter-rouge">Feed</code> as <code class="language-plaintext highlighter-rouge">show</code>. It’s an optional value, and the default value is set to hide. (To avoid publishing by mistake)</li>
+  <li><code class="language-plaintext highlighter-rouge">date</code> is used to sort note in feed.</li>
+  <li><code class="language-plaintext highlighter-rouge">permalink</code> is an optional value. Use it to set permanent URLs</li>
+  <li><code class="language-plaintext highlighter-rouge">format:list</code> will change the layout to a list with border, Refer [[Credits]]. This is useful for Curated lists (Check <a href="https://hiran.in/list/reading">my personal library</a> ) or while building MoC.</li>
+</ol>
+
+<h2 id="updating-digital-garden">Updating Digital Garden</h2>
+
+<p>Once you have enough notes, got to the Github Desktop app, commit the changes to main, and push the changes to Github. Github will update the pages!
+<img src="../assets/img/7-how-to.png" width="100%" /></p>
+
+<p>If you want to know my workflow or Obsidian folder structure, check <a href="">here</a></p>
+
+<h2 id="features">Features</h2>
+<ul>
+  <li>Check <a href="../post/features">Features</a> to know theme features</li>
+</ul>
+
+<h2 id="credits">Credits</h2>
+<ul>
+  <li>Check [[Credits]]</li>
+</ul>]]></content><author><name></name></author><category term="jekyll-garden.github.io" /><summary type="html"><![CDATA[Jekyll garden is a theme over Jekyll that supports Obsidian formats, and few features. To install Jekyll to your server or local host, refer these documents. Docker file is also available.]]></summary></entry></feed>
